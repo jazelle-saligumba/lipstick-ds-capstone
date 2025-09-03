@@ -1,0 +1,14 @@
+---
+title: "Topic"
+author: Jazelle Saligumba
+format: pdf
+editor: visual
+---
+
+## Lipstick Index 
+
+Lipsticks, matcha, club music, and labubus. As we head into uncertain economic times, unassuming items like makeup have been pointed as economic recession indicators. After the rise in Estee Lauder's lipstick sales after 9/11, the company's heir, Leonard Lauder, coined the 'Lipstick Index' or the 'Lipstick Effect.' It hypothesizes that during recessions, consumers shift away from saving for big ticket items such as houses or carts, and instead pivot to small luxuries like cosmetics.
+
+Since the early 2000s, the concept has spread widely as a pop culture suggestion, extending to other small luxury goods beyond cosmetics. However there are no certain conclusions of the correlation between higher consumer spending and economic recessions. 
+
+My project aims to visualize data from Amazon and Sephora reviews over time with more rigorous indications of economic recessions such as unemployment rates and GDP growth. 
