@@ -2,105 +2,55 @@
 title: "Annotated Bibliography"
 author: Jazelle Saligumba
 date: 9/9/2025
-format:
-  pdf:
-    include-in-header:
-      text: |
-        \usepackage{xurl}
-        \urlstyle{same}
-        \emergencystretch=3em
+format: pdf
 editor: visual
 ---
 
 ## METHODS
-	The source defines a step-by-step guide to scrape Amazon reviews in R, which will be extremely helpful as a starting point and detailed manual for my project. It reviews details I would not have thought of–such as avoiding bot detection–that the author takes care to dedicate a section towards. I will have to build and add my own code as I am interested in verified reviews for more accuracy.
 
+The source defines a step-by-step guide to scrape Amazon reviews in R, which will be extremely helpful as a starting point and detailed manual for my project. It reviews details I would not have thought of–such as avoiding bot detection–that the author takes care to dedicate a section towards. I will have to build and add my own code as I am interested in verified reviews for more accuracy.
 
-Vignette: Scraping Amazon Reviews in R
+[Vignette: Scraping Amazon Reviews in R](https://martinctc.github.io/blog/vignette-scraping-amazon-reviews-in-r/)
 
+Similar to the above source, this source is also extremely helpful for my plan to scrape Sephora data. I will have to also alter the code and filter for different variables that the author was not collecting such as filtering for only ‘verified reviews.’
 
-	Similar to the above source, this source is also extremely helpful for my plan to scrape Sephora data. I will have to also alter the code and filter for different variables that the author was not collecting such as filtering for only ‘verified reviews.’
+[Scraping the product page of Sephora \| by Yelena Nevel \| Medium](https://medium.com/@yelenanevel/scraping-the-product-page-of-sephora-d99162455f2c)
 
+This research article highlights that even ‘verified reviews’ on Amazon, indicating that the user bought the item from the seller, do not completely filter fake reviews. For example, the article describes Facebook groups for Amazon stores to pay people \$5-10 dollars to buy their product to review, and also reimburse them for the purchase. This source is an important consideration in how I will be quantifying the numbers of sales.
 
-Scraping the product page of Sephora | by Yelena Nevel | Medium
-
-
-	This research article highlights that even ‘verified reviews’ on Amazon, indicating that the user bought the item from the seller, do not completely filter fake reviews. For example, the article describes Facebook groups for Amazon stores to pay people $5-10 dollars to buy their product to review, and also reimburse them for the purchase. This source is an important consideration in how I will be quantifying the numbers of sales. 
-
-
-Misinformation and Mistrust: The Equilibrium Effects of Fake Reviews on Amazon.com | NBER
-
+[Misinformation and Mistrust: The Equilibrium Effects of Fake Reviews on Amazon.com \| NBER](https://www.nber.org/papers/w34161)
 
 
 ## CONTEMPORARY ECONOMIC CONTEXT
 
-
-	Since I want to ground my project with direct comparisons to more formally recognized recession indicators, this source is my jumping point to decide which metrics I will use. VettaFi is a financial consulting company, winning NASDAQ’s best ETF award in 2022 and 2023, so the site is reasonably reliable for my purposes. 
-
-
-big four recession indicators
-
-
-## HISTORICAL/SOCIOLOGICAL/CONTEMPORARY SOCIAL CONTEXT
-
-
-	Published in 2022, author Danzinger in Forbes summarizes modern economic patterns and numbers during the COVID-19 pandemic and fears of recession were rampant. The author also mentions the originating text from J. Schor pHD, and further academic research. 		
-
-
-With the recession coming, lipstick sales rise
-
-
-
-	Sociologist and economist Juliet Schor first conceptualized the ‘Lipstick Index’ in her book, The Overspent American, in 1998. The source will be important to read the original text and understand the originating concept, especially coming from an academic with peer-reviewed studies and published books. The concept is usually attributed to Leonard Lauder, who popularized the term and noticed the pattern of economic uncertainties and lipstick sales in his company, Estee Lauder, in 2001 but a quip is less reliable and less compelling than Schor's text. I am interested in seeing how the theory evolved from its original text.
-
-The Overspent American (1998) - Juliet Schor (Chapter 3, pg. 49)
-
-
-
-	Published by the American Psychological Association, the 2012 paper interrogates Schor’s text and suggests the Lipstick Effect has to do with achieving attractiveness to attract more economically endowed partners during uncertain economic times. While my research will not touch on their claim, the source is interesting to see the theory and be critiqued further. 
-
-Mating, Spending, and the Lipstick Effect | Journal of Personality and Social Psychology | Texas
-
-
-
-## DATA SOURCES
-	The Sephora website is one of the main data sources of this project which contains variables I am interested in, such as number of reviews, date published, and filtering for verified reviews. 
-
-
-Sephora website
-
-
-
-	Similarly, the Amazon website is another main data source to record similar variables as Sephora. 
-
-
-Amazon website
-
-
-
-	By the Federal Reserve, FRED records the monthly unemployment numbers in the United States, along with other economic metrics I am continuing to explore. This will also be a main data source to tie my hypothesized recession indicators to more formal indicators.
-
-
-Unemployment Rate
-
-
-
-[Vignette: Scraping Amazon Reviews in R](https://martinctc.github.io/blog/vignette-scraping-amazon-reviews-in-r/)
-
-[Scraping the product page of Sephora | by Yelena Nevel | Medium](https://medium.com/@yelenanevel/scraping-the-product-page-of-sephora-d99162455f2c)
-
-[Misinformation and Mistrust: The Equilibrium Effects of Fake Reviews on Amazon.com | NBER](https://www.nber.org/papers/w34161) 
+Since I want to ground my project with direct comparisons to more formally recognized recession indicators, this source is my jumping point to decide which metrics I will use. VettaFi is a financial consulting company, winning NASDAQ’s best ETF award in 2022 and 2023, so the site is reasonably reliable for my purposes.
 
 [big four recession indicators](https://www.advisorperspectives.com/dshort/updates/2025/09/08/the-big-four-recession-indicators)
 
+## HISTORICAL/SOCIOLOGICAL/CONTEMPORARY SOCIAL CONTEXT
+
+Published in 2022, author Danzinger in Forbes summarizes modern economic patterns and numbers during the COVID-19 pandemic and fears of recession were rampant. The author also mentions the originating text from J. Schor pHD, and further academic research.
+
 [With the recession coming, lipstick sales rise](https://www.forbes.com/sites/pamdanziger/2022/06/01/with-inflation-rising-the-lipstick-effect-kicks-in-and-lipstick-sales-rise/)
 
+Sociologist and economist Juliet Schor first conceptualized the ‘Lipstick Index’ in her book, The Overspent American, in 1998. The source will be important to read the original text and understand the originating concept, especially coming from an academic with peer-reviewed studies and published books. The concept is usually attributed to Leonard Lauder, who popularized the term and noticed the pattern of economic uncertainties and lipstick sales in his company, Estee Lauder, in 2001 but a quip is less reliable and less compelling than Schor's text. I am interested in seeing how the theory evolved from its original text.
 
-[Mating, Spending, and the Lipstick Effect | Journal of Personality and Social Psychology | Texas](https://personal.tcu.edu/sehill/LipstickEffectMS20March2012.pdf) 
+The Overspent American (1998) - Juliet Schor (Chapter 3, pg. 49)
+
+Published by the American Psychological Association, the 2012 paper interrogates Schor’s text and suggests the Lipstick Effect has to do with achieving attractiveness to attract more economically endowed partners during uncertain economic times. While my research will not touch on their claim, the source is interesting to see the theory and be critiqued further.
+
+[Mating, Spending, and the Lipstick Effect \| Journal of Personality and Social Psychology \| Texas](https://personal.tcu.edu/sehill/LipstickEffectMS20March2012.pdf)
+
+## DATA SOURCES
+
+The Sephora website is one of the main data sources of this project which contains variables I am interested in, such as number of reviews, date published, and filtering for verified reviews.
 
 [Sephora website](https://www.sephora.com/)
 
+Similarly, the Amazon website is another main data source to record similar variables as Sephora.
+
 [Amazon website](https://www.amazon.com/)
 
-[Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE)
+By the Federal Reserve, FRED records the monthly unemployment numbers in the United States, along with other economic metrics I am continuing to explore. This will also be a main data source to tie my hypothesized recession indicators to more formal indicators.
 
+[Unemployment Rate](https://fred.stlouisfed.org/series/UNRATE)
