@@ -1,0 +1,44 @@
+---
+title: "Outline"
+format: pdf
+editor: visual
+author: Jazelle Saligumba
+date: 9/30/2025
+---
+
+
+## Introduction and Motivation
+
+* Highlight the recent mentions of ‘recession indicators’ on social media and connect it to the Lipstick Index theory
+* Motivating question: How does the lipstick index stand against formal recession indicators?
+* “Lipsticks, matcha, club music, and labubus. As we head into uncertain economic times, unassuming items like makeup have been pointed as economic recession indicators. After the rise in Estee Lauder's lipstick sales after 9/11, the company's heir, Leonard Lauder, popularized the 'Lipstick Index' or the 'Lipstick Effect.'”
+
+## Background and Theory
+
+* Short literature review on the history of the Lipstick Index 
+* Connect the Lipstick Index to times of economic uncertainties 
+* Explain how we will explore possible definitions of Lipstick Index
+    - Do consumers buy more expensive lipstick during economic recessions?
+    - Do consumers buy less cheap lipsticks during economic recessions? 
+* “While informal recession indicators are hypothesized on the internet now, academic research has questioned this phenomenon for decades. Juliet Schor’s The Overspent American (1982) finds correlations with women’s higher spending on lipsticks to personal feelings of insecurity.”
+
+## Data Collection Methods, Cleaning, and Transforming
+
+This will be the detailed step-by-step documentation of my code with reasons of how and what I decided to collect, clean, and transform. 
+
+* Lipstick Sales
+    - Scraping Sephora and Target for their lipstick reviews as proxies for item sales 
+    - Gathering key variables for lipstick reviews e.g. product, date reviewed, 1-5 star rating, text review, verified sale
+    - Gathering key variables for lipsticks e.g. name, brand, price, number of colors
+    - Joining data on lipstick name + brand
+* Economic Data
+    - Data from FRED
+    - Unemployment numbers (with filters of age, gender, income, etc), GDP, and more
+
+## Deliverables, Conclusions and Ethics
+
+* Shiny dashboard with drop down menus for users to interact with the variables
+* Running linear regressions with correlation of inverse relationship with expensive lipstick sales and economic data
+* Possible time series prediction model given new data
+* Conclusion and implications
+
