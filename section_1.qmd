@@ -25,8 +25,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 
 
-HTML_PATHS = sorted(Path(".").glob("page*.html"))
-JSON_FILES = sorted(Path(".").glob("page*.json"))
+HTML_PATH = Path("page1.html")
+JSON_FILES = [Path("page2.json"), Path("page3.json")]
 OUT_CSV = Path("sephora_products.csv")
 
 
