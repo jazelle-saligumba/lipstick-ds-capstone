@@ -3,7 +3,7 @@
 ## Executive Summary
 This project investigates the "Lipstick Effect"—the behavioral economic theory that consumers pivot toward small luxuries during recessions. By correlating high-granularity retail data from Sephora with national indices like GDP and unemployment, I built a pipeline to identify early-warning indicators of economic shifts.
 
-###Technical Workaround & Data Strategy**
+###Technical Workaround & Data Strategy
 Facing strict bot-detection on the U.S. Sephora site, I engineered a strategic workaround to capture time-stamped reviews (a proxy for sales volume):
 **The Manual Capture:** Intercepted JSON network fetches via Chrome DevTools to bypass dynamic rendering and bot-blocks on the U.S. site.
 **The Malaysia Proxy:** Utilized Sephora’s Malaysia site—which features a simpler static architecture—to prototype and refine BeautifulSoup parsing logic.
