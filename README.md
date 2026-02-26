@@ -1,4 +1,4 @@
-**[Slides on Results]https://www.canva.com/design/DAG2byRhzN4/kFebQSHbVgpsxHitZe8xyA/edit?utm_content=DAG2byRhzN4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton**
+**[Slides on Results]https://www.canva.com/design/DAG2byRhzN4/kFebQSHbVgpsxHitZe8xyA/edit?utm_content=DAG2byRhzN4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
 
 Executive Summary
 This project investigates the "Lipstick Effect"—the behavioral economic theory that consumers pivot toward small luxuries during recessions. By correlating high-granularity retail data from Amazon and Sephora with national indices like GDP and unemployment, I built a pipeline to identify early-warning indicators of economic shifts.
